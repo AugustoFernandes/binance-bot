@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>web admin</title>
+</head>
+<body>
+   <div class="header">
+    <div><img src="../static/LOGO.png"></div>
+    <div>Binance bot administrator web-interface</div>
+   </div>
+   <div class="acc_sett_block">
+      <div class="account_settings">
+        <h2>Account settings</h2>
+        <form action="{{url_for('setSettings')}}" method="POST">
+          <div>
+            <label for="apiKey">API key</label>
+            <input type="text" name="apiKey" id="" placeholder="API key">
+          </div>
+          <div>
+            <label for="apiSecret">API secret</label>
+            <input type="text" name="apiSecret" id="" placeholder="API secret">
+          </div>
+          <div>
+            <label for="symbol">Symbol</label>
+            <input type="text" name="symbol" id="" placeholder="symbol (ex. BTCUSDT)">
+          </div>
+          <input type="submit" value="Save" id="save">
+        </form>
+      </div>
+      <a href="/ordersNet" id="order_net">
+        <div class="order_net_btn">
+          Create orders net
+        </div>
+      </a>
+   </div>
+
+</body>
+</html>

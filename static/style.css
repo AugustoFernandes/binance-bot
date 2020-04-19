@@ -1,0 +1,118 @@
+body {
+    background-color: #12161C;
+    color: #fff;
+}
+a {
+    text-decoration: none; 
+    outline: none;
+}
+
+.header{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(240, 185, 11);
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.header img {width:70px;height:70px;margin-right:20px;}
+
+h1, h2 {
+    color: rgb(240, 185, 11);
+    text-align: center;
+}
+
+/* account settings  styles*/
+.acc_sett_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.account_settings {width: 300px; margin-left: 20px;}
+.account_settings form {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(240, 185, 11);
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.account_settings form input {
+    padding: 10px;
+    font-size: 18px;
+}
+
+.account_settings form div {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.account_settings form label {margin-bottom: 10px;}
+
+.order_net_btn {
+    margin: 20px 0px 0px 20px;
+    padding: 20px;
+    width: 260px;
+    text-align: center;
+    background-color: rgb(240, 185, 11);
+    border-radius: 15px;
+    font-size: 25px;
+    color: #000;
+    text-decoration: none;
+}
+.order_net_btn:hover {cursor: pointer;}
+
+/* orders net table styles */
+.order_net table,td,th {
+    border: 2px solid rgb(240, 185, 11);
+    border-collapse: collapse;
+}
+
+.order_net tr:first-child th{
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.order_net input {
+    padding: 10px;
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    background-color: inherit;
+}
+.order_net input:hover {cursor: pointer;}
+.order_net input:focus {background-color: black;}
+
+.table_controls button{
+    padding: 10px;
+    margin: 25px 0px 0px 100px;
+    width: 200px;
+    background-color: rgb(240, 185, 11);
+    font-size: 25px;
+    color: #000;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+}
+
+.save_btn {
+    text-align: center;
+    width: 300px;
+    margin: 30px 0px 30px 250px;
+    padding: 20px;
+    background-color: rgb(240, 185, 11) !important;
+    border-radius: 15px;
+    font-size: 30px !important;
+    color: black;
+}
+
+.table_head {
+    margin-bottom: 50px;;
+    text-align: center;
+    font-size: 30px !important;
+    color: rgb(240, 185, 11) !important;
+}
