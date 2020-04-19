@@ -1,6 +1,9 @@
 # BINANCE BOT
+## Как начать
+`$ python3 webAdmin.py` - запуск веб-админки
+`$ python3 worker.py` - начало торговли
 
-## Settings section
+## Account settings section
 `API_URL = "https://api.binance.com/"`  
 `API_KEY = "Q9uXG8pOjkmwhes2roxREu0UMEcAcIRkZpZbDIYnfkWXvlETAYH9rYrZSasUsal5"`  
 `API_SECRET = "uiU8vZAGJVAjvMoDjAP3hOAiKEKeYk1ARUzqtAH5tRa6dCjDf4f07bkVhNzgtDcJ"`    
@@ -11,6 +14,11 @@
 ### `API_SECRET` - секретный ключ API, используется для подписи приватных методов обращения к API
 ### `smbl` - symbol или валютная пара, если нужно изменить валютную пару - измените значение. Строка должна быть в верхнем регистре, при обращении к WebSocket API форматирование в нижний регистр учтено
 
+## Worket.py settings
+`settings = {'rate': 5000, 'amount_btc': 1, 'amount_usd': 100}`  
+`rate` - релевантная цена на криптовалюту  
+`amoun_btc` - ваше количество btc 
+`amount_usd` - ваше количество usd 
 
 ## Basic methods
 
