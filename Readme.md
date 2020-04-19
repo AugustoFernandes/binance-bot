@@ -1,4 +1,4 @@
-# BINANCE BOT
+# BINANCE BOT using Binance REST API and WebSocket 
 ## Как начать
 `$ python3 webAdmin.py` - запуск веб-админки
 `$ python3 worker.py` - начало торговли
